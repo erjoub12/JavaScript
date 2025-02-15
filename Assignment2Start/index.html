@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery | COMP1073</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+
+    <p id="myStudentId"></p>
+
+    <label for="customNumber">Enter a number (1 to 100):</label>
+    <input id="customNumber" type="number" min="1" max="100" placeholder="Enter a number">
+
+    <button class="custColor">Change Custom Color</button>
+    <button class="randColor">Change Random Color</button>
+
+    <br><br>
+
+    <label for="imageSelect">Select an Image:</label>
+    <select id="imageSelect">
+        <option value="">Please choose...</option>
+    </select>
+
+    <br>
+
+    <img id="images" src="img/placeholder.jpg" alt="Selected Image">
+
+</body>
+</html>
