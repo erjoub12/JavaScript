@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Pizza Maker</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <p id="studentInfo"></p>
+
+  <div class="container">
+    <h1>Pizza Order Form 🍕</h1>
+    
+    <form id="pizzaForm">
+      <!-- Size selection -->
+      <label>
+        Size:
+        <select id="pizzaSize" required>
+          <option value="">Select Size</option>
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+        </select>
+      </label>
+
+      <!-- Crust selection -->
+      <label>
+        Crust:
+        <select id="pizzaCrust" required>
+          <option value="">Select Crust</option>
+          <option value="Thin">Thin</option>
+          <option value="Thick">Thick</option>
+          <option value="Stuffed">Stuffed</option>
+        </select>
+      </label>
+
+      <!-- Sauce selection -->
+      <label>
+        Sauce:
+        <select id="pizzaSauce" required>
+          <option value="">Select Sauce</option>
+          <option value="Tomato">Tomato</option>
+          <option value="Alfredo">Alfredo</option>
+          <option value="Pesto">Pesto</option>
+        </select>
+      </label>
+
+      <!-- Toppings -->
+      <fieldset>
+        <legend>Toppings:</legend>
+        <label><input type="checkbox" value="Cheese" /> Cheese</label>
+        <label><input type="checkbox" value="Pepperoni" /> Pepperoni</label>
+        <label><input type="checkbox" value="Mushrooms" /> Mushrooms</label>
+        <label><input type="checkbox" value="Olives" /> Olives</label>
+        <label><input type="checkbox" value="Peppers" /> Peppers</label>
+      </fieldset>
+
+      <button type="submit">Order</button>
+    </form>
+
+    <div id="pizzaOutput"></div>
+  </div>
+</body>
+</html>
