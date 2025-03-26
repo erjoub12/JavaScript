@@ -8,34 +8,34 @@
             "calories": 240,
             "type": "ice-cream",
             "ingredients": ["Chocolate Syrup", "Peppermint Sprinkle", "Vanilla Base"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/chocolate-mint.svg"
+            "image": "https://erjoub12.github.io/JavaScript/js%20lab%204/images/chocolate-mint.svg"
         }, {
             "name": "Peach Mango",
             "calories": 285,
             "type": "milkshake-type ice-cream",
             "ingredients": ["Peach Syrup", "Mango Chunks", "Vanilla Base"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/peach-mango.svg"
+            "image": "https://erjoub12.github.io/JavaScript/js%20lab%204/images/peach-mango.svg"
         },
         {
             "name": "Strawberry Sprinkle",
             "calories": 300,
             "type": "ice-cream",
             "ingredients": ["Chocolate Syrup", "Strawberry Chunks", "Vanilla Base", "Sprinkles"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/strawberry-sprinkle.svg"
+            "image": "https://erjoub12.github.io/JavaScript/js%20lab%204/images/strawberry-sprinkle.svg"
         },
         {
             "name": "lemon Sprinkle",
             "calories": 200,
             "type": "ice-cream",
             "ingredients": ["Chocolate Syrup", "Strawberry Chunks", "Vanilla Base", "Sprinkles"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/ice-cream-xtra1.svg"
+            "image": "https://erjoub12.github.io/JavaScript/js%20lab%204/images/ice-cream-xtra1.svg"
         },
         {
             "name": "Chocolate Sprinkle",
             "calories": 350,
             "type": "ice-cream",
             "ingredients": ["Chocolate Syrup", "Strawberry Chunks", "Vanilla Base", "Sprinkles"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/ice-cream-xtra1.svg"
+            "image": "https://erjoub12.github.io/JavaScript/js%20lab%204/images/ice-cream-xtra1.svg"
         }
     ]
 }
